@@ -1,4 +1,4 @@
-##A matrix which inverse form is cached
+##A matrix which inverse form can be cached
 
 ## Create matrix which inverse form would be possible to cache
 ##
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Return a matrix that is the inverse of 'x'
+## Return an inverse of matrix x 
 
 cacheSolve <- function(x, ...) {
        inv <- x$getsolve()
